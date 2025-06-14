@@ -1,0 +1,421 @@
+<?php
+session_start();
+include_once("analyticstracking.php");
+require "../assets/php/config.php";
+$db_app = mysqli_connect($servername_app, $username_app, $password_app, $dbname_app);
+
+if (!$db_app) {
+	die("Connection failed: " . mysqli_connect_error());
+}
+?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="Praful Patel is a Member of Parliament (Rajyasabha), current President of AIFF & Sr. Vice President of AFC.">
+		<meta name="keywords" content="praful patel, praful patel gondia, praful patel civil aviation minister, mp, rajya sabha, aiff, president of aiff, indian football, ges, gondia education">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<!-- Loading: Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,300,700,800' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,700,300' rel='stylesheet' type='text/css'>
+
+		<title>Praful Patel - President of the All India Football Federation(AIFF), Member of Parliament, Govt. of India, Senior Leader NCP.</title>
+		
+		<!-- Loading: Normalize, Grid -->
+		<link rel="apple-touch-icon" sizes="57x57" href="assets/img/icon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="assets/img/icon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="assets/img/icon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="assets/img/icon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="assets/img/icon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="assets/img/icon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="assets/img/icon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="assets/img/icon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="assets/img/icon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/img/icon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="assets/img/icon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/img/icon/favicon-16x16.png">
+		<link rel="stylesheet" href="assets/css/normalize.css" media="screen">
+		<link rel="stylesheet" href="assets/css/grid.css" media="screen">
+
+		<!-- Loading: Extra Stylesheets -->
+		<link rel="stylesheet" href="assets/css/animate.min.css" media="screen">
+
+		<link rel="stylesheet" href="assets/js/plugins/owl-carousel/owl.carousel.css" media="screen">
+		<link rel="stylesheet" href="assets/js/plugins/owl-carousel/owl.theme.css" media="screen">
+		<link rel="stylesheet" href="assets/js/plugins/owl-carousel/owl.transitions.css" media="screen">
+
+		<link rel="stylesheet" href="assets/js/plugins/easy-responsive-tabs/easyresponsivetabs.css" media="screen">
+
+		<link rel="stylesheet" href="assets/js/plugins/magnific-popup/jquery.magnific-popup.css" media="screen">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+		<!-- Loading: Styles -->
+		<!--<link rel="stylesheet/less" href="assets/less/style.less" media="screen">-->
+		<link rel="stylesheet" href="assets/css/style.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+		<!-- Loading Modenizr -->
+		<script src="assets/js/modernizr.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<script src="src/skdslider.min.js"></script>
+		<link href="src/skdslider.css" rel="stylesheet">
+		<link href="src/custom.css" rel="stylesheet">
+		<script type="text/javascript">
+			jQuery(document).ready(function( ){
+				jQuery('#demo3').skdslider({delay:5000, animationSpeed: 2000,showNextPrev:true,showPlayButton:true,autoSlide:true,animationType:'fading'});
+
+				jQuery('#responsive').change(function(){
+				  $('#responsive_wrapper').width(jQuery(this).val());
+				  $(window).trigger('resize');
+				});
+
+			});
+		</script>
+		<style>
+
+		</style>
+
+	</head>
+	<body class="home">
+
+		<!-- Start: Header -->
+		<header id="header">
+			<div class="q-container">
+				<div id="logo">
+					<a href="index"><img alt="" src="assets/img/praful-patel-logo.png" alt=""></a>
+				</div>
+
+				<nav id="nav" class="navv">
+					<a href="#" id="nav-toggle" title="Navigation"><i class="fa fa-bars fa-2x"></i></a>
+					<ul>
+						<li class="nav-special"><a href="index"><i class="fa fa-circle-o-notch" aria-hidden="true"></i>&nbsp;મુખ્ય પૃષ્ઠ<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;More</span></a></li>
+						<li><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;મારા વિશે<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;More</span></a>
+						<ul>
+							<li><a href="vision"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;દ્રષ્ટિ<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;More</span></a></li>
+							<li><a href="educationalist"><i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp;કેળવણીકાર <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;More</span></a></li>
+							<li><a href="social"><i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp;સામાજિક પહેલ<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;More</span></a></li>
+						</ul>
+						</li>
+						<li><a href="sports"><i class="fa fa-futbol-o" aria-hidden="true"></i>&nbsp;રમતવીર<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;More</span></a></li>	
+						<li><a href="leadership"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;નેતૃત્વ<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;More</span></a></li>
+						<li><a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i>&nbsp;ગેલેરી</a>
+							<ul>
+								<li><a href="photos"><i class="fa fa-camera-retro" aria-hidden="true"></i>&nbsp;ફોટો ગેલેરી</a></li>
+								<li><a href="album"><i class="fa fa-play" aria-hidden="true"></i>&nbsp;&nbsp;વિડિઓ ગેલેરી</a></li>
+							</ul>
+						</li>
+						<li><a href="contact"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;સંપર્ક<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;More</span></a></li>
+						<li><a href="#"><i class="fa fa-language" aria-hidden="true"></i>&nbsp;ભાષા</a>
+							<ul>
+								<li><a href="../index"><img alt="" src="assets/img/gb.png" alt="us">&nbsp;&nbsp;અંગ્રેજી</a></li>
+								<li><a href="index"><img alt="" src="assets/img/in.png" alt="us">&nbsp;&nbsp;ગુજરાતી</a></li>
+							</ul>
+						</li>
+						<!-- <li><a href="https://play.google.com/store/apps/details?id=com.acetrot.prafulpatel&hl=en" target="_blank""><img alt="" src="assets/img/playstore-menu.png" title="Download App from Google Play Store"></a></li>
+						<li><a href="https://itunes.apple.com/in/app/praful-patel/id1212795298?mt=8" target="_blank"><img alt="" src="assets/img/applestore-menu.png" title="Download App from Apple Store"></a></li> -->
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!-- End: Header -->
+
+		<!-- Start: Hero -->
+		<div id="hero">
+			<div class="q-container bk-img">
+				<div class="box-join simple-half">
+				<?php
+        if (isset($_POST['submit'])) 
+        {
+        		$name = $_POST['name'];
+	        	$email = $_POST['email'];
+	        	$num = $_POST['number'];
+	        	$zip = $_POST['zip'];
+	        	date_default_timezone_set('Asia/Kolkata');
+	        	$date = date('h:i:sa d-m-y');
+	        	// echo "$email<br>$num<br>";
+	        	if ($name== "" || $email== ""|| $num== ""|| $zip == "") 
+	        	{
+	       			echo '<span style="color:red;">Please fill all the fields</span>';
+	        	}
+	        	elseif (strlen($num)<10)
+	        	{
+	        		echo '<span style="color:red;">Invalid phone number</span>';
+	        	}
+	        	elseif (strlen($zip)<6)
+	        	{
+	        		echo '<span style="color:red;">Invalid Zipcode</span>';
+	        	}
+				else
+				{
+					$sql = "INSERT INTO user (name,email,num,zip,date) VALUES ('$name','$email','$num','$zip','$date')";
+					$query = mysqli_query($db,$sql);		         
+				}	
+        }
+        			if (@$query) 
+			        {
+			        	echo '<span style="color:green;">Thank you</span>';
+			        }
+?>
+					<h2 class="section-headline inverted"><span>Join Praful Patel</span>All for <em>India</em>.<br>All for <em>a Better Life</em>!</h2>
+					<p>"People of India deserve better jobs, better lives, better healthcare. They deserve peace. Join me and together we can make it all possible. Join the List of proud Indians that support us!"</p>
+					<form action="" method="post">
+					<div class="q-row">
+						<div class="q-col-1-2"><label>Name</label><input type="text" name="name" value="<?php if (isset($_POST['name'])) echo $_POST['name']; ?>"></div>
+						<div class="q-col-1-2"><label>Email</label><input type="email" name="email" value="<?php if (isset($_POST['email'])) echo $_POST['email']; ?>"></div>
+					</div>
+					<div class="q-row">
+						<div class="q-col-1-2"><label>Phone</label><input type="text" name="number" value="<?php if (isset($_POST['number'])) echo $_POST['number']; ?>"></div>
+						<div class="q-col-1-2"><label>Zipcode</label><input type="text" name="zip" value="<?php if (isset($_POST['zip'])) echo $_POST['zip']; ?>"></div>
+					</div>
+					<div class="q-row">
+					<div class="q-col-1-1"><input type="submit" class="" name="submit" value="I WANT TO JOIN"></div>
+					</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- End: Hero -->
+		<div id="home-cta" style="text-align: center;">
+			<div class="q-container wow animated fadeInDown animated" data-wow-duration="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-name: fadeInDown;">
+				<a href="positions-held"><div id="box-donate" class="box box-alt simple-half" style="background-color: #ff8000;">
+					<h4 class="box-headline">સંભાળેલા હોદ્દાઓ</h4>
+					<p>Taking one step at a time.</p>
+				</div></a>
+				<a href="ncp"><div id="box-volunteer" class="box box-alt simple-half">
+					<h4 class="box-headline">રાષ્ટ્રવાદી કોંગ્રેસ પક્ષ</h4>
+					 <p>Every helping hand counts. We stand together for India!</p>
+				</div></a>
+			</div>
+		</div>
+		<div class="q-container center-txt abt-cont">
+			<div class="q-row">
+				<div class="q-col-1-1">
+					<h2 class="section-headline wow animated fadeInLeft animated">મારા વિશે</h2>
+					<p>પ્રફુલ પટેલનો જન્મ 1957ની 17 ફેબ્રુઆરીએ કોલકાતામાં થયો હતો. શ્રી પ્રફુલ પટેલ 33 વર્ષની યુવાન વયે સૌપ્રથમ વખત લોકસભામાં ચૂંટાઈ આવ્યા હતા. તેમના નેતૃત્વની લોકપ્રિયતા એટલી બધી હતી કે 10મી, 11મી તેમજ 12મી એમ સળંગ ત્રણ વખત તેઓ લોકસભામાં ચૂંટાયા હતા. ત્યારબાદ 2009માં ચોથી વખત પણ તેઓ 15મી લોકસભામાં ચૂંટાઈ આવ્યા હતા. વચ્ચેના ગાળામાં એટલે કે વર્ષ 2000 તથા 2006 માં એમ બે વખત તેઓ રાજ્યસભાના સાંસદ તરીકે પણ ચૂંટાયા હતા.</p>
+					<a href="about" class="button button-alt button-outline button-large">Read More</a>
+				</div>
+			</div>	
+		</div>
+		<!-- Start: Main -->
+		<main id="main">
+			<!-- Start: Article Grid -->
+			<div class="section article-grid center-txt">
+				<div class="q-container">
+					<div class="q-row">
+						<article class="q-col-1-4 wow animated fadeInUp" data-wow-offset="100" data-wow-duration="1s">
+							<div class="article-headline"><h3 class="sub-headline deco-headline">નેતૃત્વ</h3></div>
+							<div class="article-summary">
+								<div class="article-image"><a href="leadership"><img alt="" class="img" src="assets/img/new-leader.jpg" alt="An extraordinary leader"></a></div>								
+								<p><a href="leadership" class="button btn-wdt">એક અસાધારણ નેતા&nbsp;&nbsp;<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
+							</div>
+						</article>
+						<article class="q-col-1-4 wow animated fadeInUp" data-wow-offset="200" data-wow-duration="1s">
+							<div class="article-headline"><h3 class="sub-headline deco-headline">દ્રષ્ટિ</h3></div>
+							<div class="article-summary">
+								<div class="article-image"><a href="vision"><img alt="" class="img" src="assets/img/new-vision.jpg" alt="Vision"></a></div>
+								<p></p>
+								<p><a href="vision" class="button btn-wdt">હંમેશા પોતાના વખતથી આગળ&nbsp;&nbsp;<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
+							</div>
+						</article>
+						<article class="q-col-1-4 wow animated fadeInUp" data-wow-offset="300" data-wow-duration="1s">
+							<div class="article-headline"><h3 class="sub-headline deco-headline">સામાજિક<span> પહેલ</span></h3></div>
+							<div class="article-summary">
+								<div class="article-image"><a href="social"><img alt="" class="img" src="assets/img/new-social.jpg" alt="Social Initiatives"></a></div>
+								<p></p>
+								<p><a href="social" class="button btn-wdt">નેતા જે આપણામાં થી એક છ&nbsp;&nbsp;<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
+							</div>
+						</article>
+						<article class="q-col-1-4 wow animated fadeInUp" data-wow-offset="300" data-wow-duration="1s">
+							<div class="article-headline"><h3 class="sub-headline deco-headline">કેળવણીકાર</h3></div>
+							<div class="article-summary">
+								<div class="article-image"><a href="educationalist"><img alt="" src="assets/img/new-edu.jpg" class="img" alt="Educationalist"></a></div>
+								<p></p>
+								<p><a href="educationalist" class="button btn-wdt">મહાન કેળવણીકાર&nbsp;&nbsp;<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+			<!-- End: Article Grid -->
+
+			<!-- Start: Social Updates -->
+			<div class="section social-updates">
+				<div class="q-container">
+					<div class="q-row pad-top">
+						<div class="q-col-1-1 wow animated fadeInUp"  data-wow-duration="0.5s" data-wow-offset="500">
+							<div id="social-slider" class="simple-slider">
+								<div class="simple-slide top-desk">
+									<div class="social-update center-txt">
+									<p class="line-h testimo mob-test">Remembering the pictorial biography of our Dear Praful Patel, he never stirred up in the Parliament. With his conciliating character he also makes other people calm. I wish him to make lots of progress in life and all the best for his future.</p><p class="fnt name-css mob-test-name"> - Pranab Mukherjee, President of India </p>
+									</div>									
+								</div>
+								<div class="simple-slide top-desk">
+									<div class="social-update center-txt">
+									<p class="line-h testimo mob-test">Not with standing political differences, Patel has friends across political parties, which he has well earned over decades. He has always kept his feet firm in the grassroots.</p><p class="fnt name-css mob-test-name"> - Devendra Fadnavis, Chief Minister of Maharashtra</p>
+									</div>									
+								</div>								
+								<div class="simple-slide top-desk">
+									<div class="social-update center-txt">
+									<p class="line-h testimo mob-test">Patel has the power to sustain relationships & is always there when you need him.</p><p class="fnt name-css mob-test-name">- Mukesh Ambani </p>
+									</div>									
+								</div>
+								<div class="simple-slide top-desk">
+									<div class="social-update center-txt">
+									<p class="line-h testimo mob-test">Patel's public life had been decent and his commitment for society is admirable.<br></p><p class="fnt name-css mob-test-name">- Uddhav Thackeray</p>
+									</div>									
+								</div>
+								<div class="simple-slide top-desk">
+									<div class="social-update center-txt">
+									<p class="line-h testimo mob-test">Praful patel has carried forward his father, Manoharbhai's legacy very well and is adding to it in a large measure.</p>
+									<p class="fnt name-css mob-test-name"> - Amitabh Bachchan </p>
+									</div>									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End: Social Updates -->
+
+			<!-- Start: News -->
+			<div class="section section-alt home-news sec-newss">
+				<div class="q-container">
+					<div class="q-row">
+						<div class="q-col-1-3">
+							<img alt="" src="assets/img/visionary.jpg" class="img-bord">
+						</div>
+						<div class="q-col-1-3 wow animated zoomIn" data-wow-duration="0.5s" data-wow-offset="200">
+							<h3 class="sub-headline">Twitter <span>Feed</span></h3>
+
+							<div class="headline-list">
+								<ul>
+									<li>
+										<a class="twitter-timeline" data-chrome="nofooter transparent noheader noborders noscrollbar" data-width="350" data-height="400" data-theme="light" href="https://twitter.com/praful_patel">Tweets by praful_patel</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="q-col-1-3 wow animated zoomIn" data-wow-duration="0.5s" data-wow-offset="200">
+							<h3 class="sub-headline">Recent <span>Events</span></h3>
+						<!-- 	<p>Praful Patel is in constant contact with the Real India, the Real People. <a href="#">View the Roadmap</a></p> -->
+							<table class="light-table events-table tbl">
+								<tr>
+									<th><p>Location</p></th>
+									<th><p>Start Date</p></th>
+									<!-- <th class="text-right"><p>End &nbsp;&nbsp;&nbsp;Date</p></th> -->
+								</tr>
+<!-- 								<tr>
+									<td><a href="#"><strong>Developing Member Association Award</strong></a><br>India</td>
+									<td class="text-right"><strong>01.12.2016</strong><br>8:00 AM</td>
+								</tr>
+								<tr>
+									<td><a href="#"><strong>AIFF is the first Sports Federation in India to launch an Overseas Scouting Portal</strong></a><br>India</td>
+									<td class="text-right"><strong>01.12.2016</strong><br>8:00 AM</td>
+								</tr>
+								<tr>
+									<td><a href="#"><strong>Parivartan rally at Ghatkopar</strong></a><br>Ghatkopar, IN</td>
+									<td class="text-right"><strong>21.11.2016</strong><br>8:00 AM</td>
+								</tr> -->
+								<?php
+								
+								$today=date("Y-M-D");
+								$sql="SELECT * FROM events where status=1 and flag=0 and startDate > ADDDATE(NOW(), INTERVAL -1 MONTH) order by startDate desc LIMIT 3";
+
+								$result=$db_app->query($sql);
+								while($row=$result->fetch_assoc()){
+									
+									?>
+								<tr>
+									<td class="tbl-td"><p><strong><?php echo urldecode($row["title"]); ?></strong><br><?php echo urldecode($row["venue"]); ?></p></td>
+									<td class="tbl-td"><p><strong><?php echo urldecode(date("d-m-Y",strtotime($row["startDate"]))); ?></strong><br><?php echo urldecode($row["startTime"]); ?> - <?php echo urldecode($row["endTime"]); ?><p></td>									
+								</tr><?php
+									mysqli_close($db_app);
+								}
+
+								?>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End: News -->
+		</main>
+		<!-- End: Main -->
+
+		<!-- Start: Footer -->
+		<footer id="footer">
+			<div class="q-container">
+				<div class="q-row top-pad">
+					<div class="q-col-1-4 footer-col">
+					<h2 class="footr-hd">Links</h2>
+						<nav id="nav-footer-primary">
+							<ul>
+								<li><a href="index">મુખ્ય પૃષ્ઠ</a></li><br>
+								<li><a href="about">મારા વિશે</a></li><br>
+								<li><a href="sports">રમતવીર</a></li><br>
+								<li><a href="vision">દ્રષ્ટિ</a></li><br>
+								<li><a href="leadership">નેતૃત્વ</a></li><br>						
+							</ul>
+						</nav>						
+					</div>
+					<div class="q-col-1-4 footer-col footer-col2">
+						<nav id="nav-footer-primary">
+							<ul>
+								<li><a href="educationalist">કેળવણીકાર</a></li><br>
+								<li><a href="social">સામાજિક પહેલ</a></li><br>
+								<li><a href="contact">સંપર્ક</a></li><br>
+							</ul>
+						</nav>
+					</div>
+					<div class="q-col-1-4">
+						<a href="#" class="footer-logo"><img alt="" src="assets/img/praful-patel-logo.png" alt=""></a>
+						<ul class="social-profiles scl-ul">
+							<li><a href="https://www.facebook.com/ShriPrafulPatel" title="Facebook" class="social-space" target="_blank"><img alt="" src="assets/img/facebook-logo.png"></a></li>
+							<li><a href="https://twitter.com/praful_patel/" title="Twitter" class="social-space" target="_blank"><img alt="" src="assets/img/twitter-logo.png"></a></li>
+							<li><a href="https://www.youtube.com/user/shriprafulpatel" title="YouTube" class="social-space" target="_blank"><img alt="" src="assets/img/youtube-logo.png"></a></li>		
+						</ul>
+					</div>
+					<!-- <div class="q-col-1-4 center-txt dwn-app-cont">
+						<h2 class="footr-hd">Download App:</h2>						
+						<ul class="social-profiles inline-so">
+							<li class="inline-so"><a href="https://play.google.com/store/apps/details?id=com.acetrot.prafulpatel&hl=en" target="_blank">&nbsp;&nbsp;<img alt="" src="assets/img/googleplaystore.png" height="56px" width="170px" alt="Google playstore" title="Download App from Google Play Store"></a></li>
+							<li class="inline-so"><a href="https://itunes.apple.com/in/app/praful-patel/id1212795298?mt=8" target="_blank"><img alt="" src="assets/img/applelogo.png" height="56px" width="170px" alt="itunes" title="Download App from Apple Store"></a></li>
+						</ul>
+					</div> -->
+				</div>
+			<div class="q-container privcy-cont">
+				<div class="q-col-1-2 foo2 footer-pad">
+					<p class="footer-info">© <?php echo date("Y"); ?> Praful Patel All Rights Reserved. | Designed & Developed By
+					<a href="https://www.acetrot.com/" target="_blank" class="acetrot">Acetrot</a></p>
+				</div>
+				<div class="q-col-1-2 footer-pad">
+					<a href="privacy-policy" class="footer-info foo foo1 privcy-clr">Privacy Policy
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+		<!-- <script src="assets/js/jquery-1.11.1.min.js"></script> -->
+		<script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+		<Script src="assets/js/jquery-ui.min.js"></script>
+		<script src="assets/js/less-1.7.3.min.js"></script>
+		<script src="assets/js/plugins/jquery.hoverintent.min.js"></script>
+		<script src="assets/js/plugins/jquery.superfish.min.js"></script>
+		<script src="assets/js/plugins/owl-carousel/owl.carousel.min.js"></script>
+		<script src="assets/js/plugins/easy-responsive-tabs/easyresponsivetabs.js"></script>
+		<script src="assets/js/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script src="assets/js/plugins/jquery.mixitup.min.js"></script>
+		<script src="assets/js/plugins/jquery.fitvids.js"></script>
+		<script src="assets/js/plugins/jquery.mousewheel.min.js"></script>
+		<script src="assets/js/plugins/jquery.simplr.smoothscroll.min.js"></script>
+		<script src="assets/js/plugins/wow.min.js"></script>
+		<!-- Loading: Custom Scripts -->
+		<script src="assets/js/custom.electoral.js"></script>
+	</body>
+</html>

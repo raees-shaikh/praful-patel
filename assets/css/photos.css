@@ -1,0 +1,95 @@
+			@media screen and (min-width: 480px) 
+			{
+    			.ftr
+    			{
+       				 padding-top: 48px;
+   				}
+			}
+			@media screen and (min-width: 767px)
+			{
+				.lft
+				{
+					margin-left: 6%;
+				}
+			}
+			@media screen and (max-width: 767px)
+			{
+				.foo1
+				{
+					text-align: center!important;
+				}
+			}
+			@media screen and (min-width: 768px)
+			{
+				.foo
+				{
+					float: right;
+				}
+                .foo2
+                {
+                    float: left;
+                }				
+			}
+						ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+    font-size: 0.857em;
+}
+ul.breadcrumb li {display: inline;}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+.marg
+{
+	margin-left: 10px;
+}
+/*footer-css*/
+.hding-clr
+{
+	color: #ff8000!important;
+}
+.social-ul
+{
+	margin-top: -10px;
+}
+.down-app
+{
+	padding-top: 30px;
+}
+.inlin
+{
+	display: inline;
+}
+.cpy-cont
+{
+	border-top: 1px solid white;
+	padding-top: 10px;
+}
+.prvcy
+{
+	color: #fff!important;
+}
+.center-txt
+{
+	text-align: center;
+}
+.navv
+{
+	margin-top: 10px;
+}
+.hd-mar
+{
+	margin-bottom: 50px;
+	color:#ff8000;
+}

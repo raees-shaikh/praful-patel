@@ -1,0 +1,93 @@
+			@media screen and (min-width: 480px) 
+			{
+    			.ftr
+    			{
+       				 padding-top: 48px!important;
+   				}
+			}
+			@media screen and (max-width: 767px)
+			{
+				.img
+				{
+					float: none!important;
+				}
+			}
+			@media screen and (max-width: 767px)
+			{
+				.foo1
+				{
+					text-align: center!important;
+				}
+			}
+			@media screen and (min-width: 768px)
+			{
+				.foo
+				{
+					float: right!important;
+				}
+                .foo2
+                {
+                    float: left!important;
+                }				
+			}
+			ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+    font-size: 0.857em;
+}
+ul.breadcrumb li {display: inline;}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+.marg
+{
+	margin-left: 10px!important;
+}
+.navv
+{
+	margin-top: 10px!important;
+}
+.center-txt
+{
+	text-align: center!important;
+}
+.cont1
+{
+	margin-bottom: 30px!important;
+}
+.hding-clr
+{
+	color: #ff8000!important;
+}
+.social-ul
+{
+	margin-top: -10px!important;
+}
+.down-app
+{
+	padding-top: 30px!important;
+}
+.inlin
+{
+	display: inline!important;
+}
+.cpy-cont
+{
+	border-top: 1px solid white!important;
+	padding-top: 10px!important;
+}
+.prvcy
+{
+	color: #fff!important;
+}

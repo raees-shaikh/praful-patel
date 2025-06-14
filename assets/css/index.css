@@ -1,0 +1,145 @@
+			@media screen and (max-width: 768px) 
+			{
+    			.ftr
+    			{
+       				 padding-top: 50px!important;
+   				}
+			}
+			@media screen and (max-width: 320px;)
+			{
+				.policy
+				{
+					text-align: center!important;
+				}
+			}
+			@media screen and (max-width: 767px)
+			{
+				.fnt
+				{
+					font-size: 18px!important;
+				}
+			}
+			@media screen and (max-width: 767px)
+			{
+				.foo1
+				{
+					text-align: center!important;
+				}
+				.mob-test
+				{
+					font-size: 16px!important;	
+					line-height: 1.5!important;				
+				}
+				.mob-test-name
+				{
+					font-size: 16px!important;
+					font-weight: bold;
+				}
+				.btn-width1
+				{
+					width: 80%!important;
+				}				
+			}
+			@media screen and (min-width: 768px)
+			{
+				.foo
+				{
+					float: right;
+				}
+                .foo2
+                {
+                    float: left;
+                }
+                .testimo
+				{
+					font-size: 20px!important;
+					font-weight: bolder;
+					margin:0px!important;
+				}
+				.name-css
+				{
+					color: #0b233e;
+					font-weight: bold;
+					font-size: 20px!important;
+				}
+				.top-desk
+				{
+					margin-top: 40px;
+				}
+				.btn-width
+				{
+					width: 100%;
+				}				
+			}
+			.center-txt
+			{
+				text-align: center!important;
+			}
+			.img
+			{
+				width: 100%!important;
+				height: auto!important;
+			}
+			.navv
+			{
+				margin-top: 10px;
+			}
+			.two-btn
+			{
+				visibility: visible;
+				animation-duration: 0.5s;
+				animation-name: fadeInDown;
+			}
+			.held-clr
+			{
+				background-color: #ff8000!important;
+			}
+			.abt-cont
+			{
+				margin-top: 40px;
+			}
+			.btn-wdt
+			{
+				width: 100%;
+			}
+			.sec-newss
+			{
+				margin-top: 2%;
+			}
+			.img-bord
+			{
+				border: 2px solid #ff8000;
+			}
+			.tbl
+			{
+				width: 100%;
+			}
+			.tbl-td
+			{
+				padding: 7px 1px!important;
+			}
+			.footr-hd
+			{
+				color: #ff8000;
+			}
+			.scl-ul
+			{
+				margin-top: -10px;
+			}
+			.dwn-app-cont
+			{
+				padding-top: 30px;
+			}
+			.inline-so
+			{
+				display: inline;
+			}
+			.privcy-cont
+			{
+				border-top: 1px solid white;
+				padding-top: 10px;
+			}
+			.privcy-clr
+			{
+				color: #fff!important;
+			}

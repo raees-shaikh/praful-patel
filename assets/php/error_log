@@ -1,0 +1,73 @@
+[27-Jun-2022 15:46:21 UTC] PHP Warning:  require(./assets/php/config.php): failed to open stream: No such file or directory in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[27-Jun-2022 15:46:21 UTC] PHP Warning:  require(./assets/php/config.php): failed to open stream: No such file or directory in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[27-Jun-2022 15:46:21 UTC] PHP Fatal error:  require(): Failed opening required './assets/php/config.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[13-Nov-2022 16:07:22 UTC] PHP Warning:  require(./assets/php/config.php): Failed to open stream: No such file or directory in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[13-Nov-2022 16:07:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './assets/php/config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[13-Nov-2022 16:07:22 UTC] PHP Warning:  require(./assets/php/config.php): Failed to open stream: No such file or directory in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[13-Nov-2022 16:07:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './assets/php/config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[13-Nov-2022 16:07:23 UTC] PHP Warning:  require(./assets/php/config.php): Failed to open stream: No such file or directory in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[13-Nov-2022 16:07:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './assets/php/config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[07-Dec-2022 12:15:55 UTC] PHP Warning:  require(./assets/php/config.php): Failed to open stream: No such file or directory in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[07-Dec-2022 12:15:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './assets/php/config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[15-Mar-2023 20:31:47 UTC] PHP Warning:  require(./assets/php/config.php): Failed to open stream: No such file or directory in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[15-Mar-2023 20:31:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './assets/php/config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[24-Apr-2023 23:38:34 UTC] PHP Warning:  require(./assets/php/config.php): Failed to open stream: No such file or directory in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[24-Apr-2023 23:38:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './assets/php/config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[24-Jun-2023 13:05:59 UTC] PHP Warning:  require(./assets/php/config.php): Failed to open stream: No such file or directory in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[24-Jun-2023 13:05:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './assets/php/config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[21-Jul-2023 12:39:33 UTC] PHP Warning:  require(./assets/php/config.php): Failed to open stream: No such file or directory in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[21-Jul-2023 12:39:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './assets/php/config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[03-Oct-2023 14:11:29 UTC] PHP Warning:  require(./assets/php/config.php): Failed to open stream: No such file or directory in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[03-Oct-2023 14:11:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './assets/php/config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[04-Apr-2024 04:19:00 UTC] PHP Warning:  require(./assets/php/config.php): Failed to open stream: No such file or directory in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[04-Apr-2024 04:19:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './assets/php/config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[04-Apr-2024 04:19:00 UTC] PHP Warning:  require(./assets/php/config.php): Failed to open stream: No such file or directory in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[04-Apr-2024 04:19:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './assets/php/config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[04-Apr-2024 04:19:01 UTC] PHP Warning:  require(./assets/php/config.php): Failed to open stream: No such file or directory in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[04-Apr-2024 04:19:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './assets/php/config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[04-Apr-2024 04:19:01 UTC] PHP Warning:  require(./assets/php/config.php): Failed to open stream: No such file or directory in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[04-Apr-2024 04:19:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './assets/php/config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[16-Nov-2024 19:05:56 UTC] PHP Warning:  require(./assets/php/config.php): Failed to open stream: No such file or directory in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5
+[16-Nov-2024 19:05:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './assets/php/config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/youtusnl/public_html/praful-patel.com/assets/php/home-form-process.php on line 5

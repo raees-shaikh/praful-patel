@@ -1,0 +1,16 @@
+#Options +FollowSymLinks -MultiViews
+# Turn mod_rewrite on
+RewriteEngine On
+RewriteBase /
+
+## hide .php extension
+# To externally redirect /dir/foo.php to /dir/foo
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^praful\-patel\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.praful\-patel\.com$
+RewriteRule ^/?$ "https\:\/\/praful\-patel\.com\/" [R=301,L]
+

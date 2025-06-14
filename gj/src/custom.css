@@ -1,0 +1,48 @@
+/* Search Result margin */
+.searchmargin {
+	margin-left: 70px;
+}
+.paneldefaultmargin{
+	margin-top: -36px;
+	margin-bottom: 35px;
+}
+.panelbodypadding{
+	padding:0 0 0 0;
+}
+.table-responsive {
+    display: inline-table;
+    width: 100%;
+    min-height: 0%;
+    overflow-x: auto;
+	margin-top:2%;
+}
+.table-responsive1 {
+    display: block;
+    width: 100%;
+    min-height: 0%;
+    overflow-x: auto;
+	margin-top:2%;
+}
+.panel-heading {
+    padding: 6px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: 1.2em;
+}
+.panel-body {
+    padding: 6px;
+    font-size: 1.2em;
+}
+.label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-size: 1.1em;
+}
+.sf-menu ul {
+    box-shadow: 2px 2px 6px rgba(0,0,0,.2);
+    min-width: 6em;
+}
+.black {
+	color:black;
+}

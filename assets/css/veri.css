@@ -1,0 +1,110 @@
+		@media screen and (max-width: 767px)
+		{
+			.cont
+			{
+				width: 90%!important;
+			}
+		}
+	    .capatcha
+	    {
+	        text-align: center;
+	    }
+
+	    .g-recaptcha
+	    {
+	        display: inline-block;
+	    }
+	    	@media screen and (max-width: 767px)
+			{
+				.foo1
+				{
+					text-align: center!important;
+				}
+				.mob-test
+				{
+					font-size: 16px!important;	
+					line-height: 1.5!important;				
+				}
+				.mob-test-name
+				{
+					font-size: 16px!important;
+					font-weight: bold;
+				}
+			}
+			@media screen and (min-width: 768px)
+			{
+				.foo
+				{
+					float: right;
+				}
+			}
+			@media screen and (min-width: 992px)
+			{
+				.pad-top
+				{
+					padding-top: 5%!important;
+				}
+			}
+			@media screen and (min-width: 768px)
+			{
+				.testimo
+				{
+					font-size: 20px!important;
+					font-weight: bolder;
+					margin:0px!important;
+				}
+				.name-css
+				{
+					color: #0b233e;
+					font-weight: bold;
+					font-size: 20px!important;
+				}
+			}
+			.center-txt
+			{
+				text-align: center;
+			}
+			.logo-pad
+			{
+				padding-top: 5px!important;
+
+			}
+			.logo-cont
+			{
+				background-color: #0b233e;
+				background-size: 100% auto;
+			}
+			.logo-col
+			{
+				padding-bottom: 0px!important;
+				padding-top: 4px!important;
+			}
+			.cptch-cont
+			{
+				margin-top: 2%;
+			}
+			.frm
+			{
+				margin-bottom: 2%;
+			}
+			.social-cont
+			{
+				background-color: #faf8f7;
+				border-radius: 5px;
+				margin-top: 4%;
+				margin-bottom: 4%;
+				width: 60%;
+				border: 1px solid #e4deda;
+			}
+			.social-roww
+			{
+				margin: 0px;
+			}
+			.social-a
+			{
+				margin: 10px;
+			}
+			.foo-cont
+			{
+				border-top: 1px solid white;
+			}

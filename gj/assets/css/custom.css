@@ -1,0 +1,67 @@
+@media screen and (max-width:768px)
+{
+	.footer-pad
+	{
+		padding: 5px!important;
+	}
+	.line-h
+	{
+		line-height: 1!important;
+	}
+	.video-pad
+	{
+		padding: 3px!important;
+	}
+	.footer-col
+	{
+		padding: 0px!important;
+	}
+	.top-pad
+	{
+		padding-top: 15px!important;
+	}
+}
+.back-img
+{
+	background-image: url("../img/02_footer-Ind_flag.png");
+	background-size: cover;
+}
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+    font-size: 17px;
+}
+ul.breadcrumb li {display: inline;}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+.social-space
+{
+	padding: 10px;
+}
+@media screen and (min-width: 992px)
+{
+	.footer-col2
+	{
+		padding-top: 43px!important;
+	}
+}
+
+#footer .q-row{
+	display: flex !important;
+	justify-content: space-around !important;
+}
+.acetrot{
+	color:#ff8000!important
+}
